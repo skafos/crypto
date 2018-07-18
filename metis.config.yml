@@ -3,6 +3,7 @@ name: crypto
 jobs:
   - job_id: ea167f1b-b777-4aa8-a3aa-1035a7067762
     language: python
+    schedule: "0 8 * * *"
     name: Main
     entrypoint: main.py
     resources:
